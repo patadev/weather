@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+  </head>
+  <body>
+    <form action="/" method="post">
+      <label for="city">city:</label><br />
+      <input type="text" id="city" name="city" /><br />
+      <label for="unit">unit:</label><br />
+      <input type="text" id="unit" name="unit" /><br />
+      <input type="hidden" name="mode" value="html" /><br />
+      <button type="submit">Go</button>
+    </form>
+    <script src="./config.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
